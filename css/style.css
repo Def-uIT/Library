@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid brown
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 84px, auto;
+}
+
+.nav {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 84px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.greeting {
+    text-transform: uppercase;
+}
+
+.work-space {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.new-book {
+    background-image: url('../img/vecteezy_add-icon-sign-symbol-design_10160090.png');
+}
+
